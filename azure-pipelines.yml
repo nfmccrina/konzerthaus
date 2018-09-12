@@ -7,8 +7,8 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- script: pwd
-  displayName: 'Run a one-line script'
+- script: which yarn
+  displayName: 'yarn check'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
