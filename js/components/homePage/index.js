@@ -1,7 +1,8 @@
 import m from 'mithril'
+import TrackList from '../trackList'
 
-export class HomePage {
+export default class HomePage {
     view () {
-        return m('p', 'Hello, Mithril')
+        return m('div', m(TrackList))
     }
 }
