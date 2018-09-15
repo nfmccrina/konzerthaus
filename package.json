@@ -10,7 +10,7 @@
     "mithril": "^1.1.6"
   },
   "scripts": {
-    "build": "browserify js/index.js -o wwwroot/bin/app.js"
+    "build": "browserify js/index.js -o wwwroot/scripts/app.js"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",
